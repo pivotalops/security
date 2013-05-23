@@ -35,7 +35,7 @@
 /*
  *  mkpasswd:   a passphrase generator
  *
- *  compile:    cc -O0 -o mkpasswd mkpasswd.c
+ *          To compile:    cc -O0 -o mkpasswd mkpasswd.c
  *    
  *          mkpasswd was inspired by the babble strings produced
  *          by the original Bellcore S/Key OTP generator - however,
