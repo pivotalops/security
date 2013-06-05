@@ -349,17 +349,14 @@ main(int argc, char *argv[]) {
 
     while ((ch = getopt(argc, argv, "dhs")) != -1)
         switch(ch) {
-        case 'D':
         case 'd':
             sep = '-';
             break;
 
-        case 'S':
         case 's':
             sep = ' ';
             break;
       
-        case 'H':
         case 'h':
             fprintf(stderr, "usage: mkpasswd [-dsh]\n");
             fprintf(stderr, "  -h : print this message\n");
